@@ -7,7 +7,7 @@
  * @returns {number} A soma dos dois numeros
  */
 function soma(a, b) {
-  // @todo implementar retorno da operação aqui
+  return a + b
 }
 
 /**
