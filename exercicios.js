@@ -101,7 +101,7 @@ function retornaNumero(numero) {
  * @returns {boolean} Retorna true para números positivos
  */
 function ehPositivo(num) {
-  return num >= 0 ? true : false
+  return num > 0 ? true : false
 }
 
 module.exports = 
