@@ -17,7 +17,7 @@ function soma(a, b) {
  * @returns {number} A multiplicação dos dois numeros
  */
 function multiplicacao(a, b) {
-  // @todo implementar retorno da operação aqui
+  return a * b
 }
 
 /**
@@ -27,7 +27,7 @@ function multiplicacao(a, b) {
  * @returns {number} A divisão dos dois numeros
  */
 function divisao(a, b) {
-  // @todo implementar retorno da operação aqui
+  return a / b
 }
 
 /**
@@ -37,7 +37,7 @@ function divisao(a, b) {
  * @returns {number} A subtração dos dois numeros
  */
 function subtracao(a, b) {
-  // @todo implementar retorno da operação aqui
+  return a - b
 }
 
 /**
@@ -47,7 +47,7 @@ function subtracao(a, b) {
  * @returns {number} O resto da divisão dos dois numeros
  */
 function modulo(a, b) {
-  // @todo implementar retorno da operação aqui
+  return a % b
 }
 
 /**
@@ -57,7 +57,7 @@ function modulo(a, b) {
  * @returns {number} O maior número
  */
 function max(a, b) {
-  // @todo implementar retorno da operação aqui
+  return a > b ? a : b
 }
 
 // -------------------------------------
@@ -69,7 +69,7 @@ function max(a, b) {
  * @returns {string} As 2 strings concatenadas
  */
 function strConcat(a, b) {
-  // @todo implementar retorno da operação aqui
+  return `${a} ${b}`
 }
 
 // --------------------------------------
@@ -84,7 +84,13 @@ function strConcat(a, b) {
  *  - "Menor que 10" quando o número é menor que 10
  */
 function retornaNumero(numero) {
-  // @todo implementar retorno da operação aqui
+  if (numero > 10){
+    return "Maior que 10"
+  }else if (numero === 10){
+    return "Igual a 10"
+  }else{
+    return "Menor que 10"
+  }
 }
 
 // --------------------------------------
@@ -95,7 +101,7 @@ function retornaNumero(numero) {
  * @returns {boolean} Retorna true para números positivos
  */
 function ehPositivo(num) {
-  // @todo implementar retorno da operação aqui
+  return num >= 0 ? true : false
 }
 
 module.exports = 
